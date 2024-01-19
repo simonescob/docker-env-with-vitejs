@@ -5,7 +5,7 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  console.log('variable from docker', import.meta.env.VITE_VAR_TEST);
   return (
     <>
       <div>
